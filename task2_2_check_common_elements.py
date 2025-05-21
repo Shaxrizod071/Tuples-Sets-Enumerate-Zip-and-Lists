@@ -7,4 +7,5 @@ def check_common_elements(set1: set, set2: set) -> bool:
     Returns:
         bool: True if sets have common elements, False otherwise
     """
-    return
+    return set1.union(set2)
+print(check_common_elements({1,2,3},{4,5,3}))
