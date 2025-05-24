@@ -7,4 +7,5 @@ def check_subset(set1: set, set2: set) -> bool:
     Returns:
         bool: True if set1 is a subset of set2, False otherwise
     """
-    return
+    return set1.issubset(set2)
+print(check_subset({'a','v','e','r'},{'a','e','v','r','q','w'}))
