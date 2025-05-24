@@ -6,4 +6,6 @@ def print_with_index(items: list) -> None:
     Returns:
         None: Prints each item with its index
     """
-    return
+    data=enumerate(items)
+    return list(data)
+print(print_with_index(['q','v','a','a']))
